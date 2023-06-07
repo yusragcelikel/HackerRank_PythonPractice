@@ -13,6 +13,13 @@ if __name__ == '__main__':
         print("Not in the inclusive range of 1 to 100.")
     elif n > 100:
         print("Not in the inclusive range of 1 to 100.")
+#--------------------------------Note--------------------------------
+#   Don't use following lines for checking if the given number is
+#   in the inclusive range of 1 to 100. It'll cause error.
+
+#   if n < 1 and n > 100:
+#       print ("Not in the inclusive range of 1 to 100.")
+# --------------------------------------------------------------------
 
     # if the number is in range time to solve the problem
     else:
